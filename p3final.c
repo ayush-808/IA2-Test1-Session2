@@ -22,7 +22,7 @@ void output(int number, int isComposite)
   if (isComposite)
     printf("%d is a COMPOSITE NUMBER\n", number);
   else 
-    printf("%d is NOT A COMPOSITE NUMBER\n", number);
+    printf("%d is a PRIME NUMBER\n", number);
 }
 
 int main()
